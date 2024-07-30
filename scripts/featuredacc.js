@@ -1,5 +1,6 @@
-import {picks, closeFeaturedDetails } from '../data/picks.js';
 import {featured} from '../data/featured.js';
+import {picks, closeFeaturedDetails } from '../data/picks.js';
+
 
 let featuredSummaryHTML = '';
 

@@ -1,5 +1,6 @@
-import {product, closeAccountDetails} from '../data/products.js';
 import {accounts} from '../data/accounts.js';
+import {product, closeAccountDetails} from '../data/products.js';
+
 
 let productsummaryHTML = '';
 
