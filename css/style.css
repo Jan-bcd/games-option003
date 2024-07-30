@@ -278,7 +278,6 @@ li:hover .dropdown-content {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 20px;
-    overflow: hidden;
 }
 #product1 .pro {
     display: flex;
