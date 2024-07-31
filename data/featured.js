@@ -1,5 +1,5 @@
   export let featured = [{
-  tag: 'featured1',
+  tag: "featured1",
   image1:'img/featured/featured-accnt1/1.jpg',
   image2:'img/featured/featured-accnt1/2.jpg',
   image3:'img/featured/featured-accnt1/3.jpg',
@@ -32,7 +32,7 @@
   contact: +639165551234,
   hightlight: 'Epic Weapon Style, Epic Mount',
 }, {
-  tag: 'featured2',
+  tag: "featured2",
   image1:'img/featured/featured-accnt2/1.jpg',
   image2:'img/featured/featured-accnt2/2.jpg',
   image3:'img/featured/featured-accnt2/3.jpg',
@@ -65,7 +65,7 @@
   contact: +639165551234,
   hightlight: 'Epic Weapon Style, Epic Mount, Epic Glider',
 }, {
-  tag: 'featured3',
+  tag: "featured3",
   image1:'img/featured/featured-accnt3/1.jpg',
   image2:'img/featured/featured-accnt3/2.jpg',
   image3:'img/featured/featured-accnt3/3.jpg',
@@ -98,7 +98,7 @@
   contact: +639165551234,
   hightlight: 'Epic Weapon Style, Epic Mount, Epic Glider',
 }, {
-  tag: 'featured4',
+  tag: "featured4",
   image1:'img/featured/featured-accnt4/1.jpg',
   image2:'img/featured/featured-accnt4/2.jpg',
   image3:'img/featured/featured-accnt4/3.jpg',

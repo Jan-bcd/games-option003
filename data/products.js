@@ -2,9 +2,9 @@ export let product = JSON.parse(localStorage.getItem('product'));
 
 if (!product) {
   product = [{
-    accountId: 'account0'
+    accountId: "account0"
   }, {
-    accountId: 'account00'
+    accountId: "account00"
   }];
 }
 
