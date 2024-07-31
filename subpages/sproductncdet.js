@@ -1,7 +1,6 @@
 import {accounts} from '../data/accounts.js';
 import {product, closeAccountDetails} from '../data/products.js';
 
-
 let productsummaryHTML = '';
 
 product.forEach((productItem) => {
@@ -13,6 +12,7 @@ product.forEach((productItem) => {
     if (account.id === accountId) {
       matchingAccount = account;
     }
+    console.log(matchingAccount);
   });
 
   productsummaryHTML +=

@@ -1,7 +1,6 @@
 import {featured} from '../data/featured.js';
 import {picks, closeFeaturedDetails } from '../data/picks.js';
 
-
 let featuredSummaryHTML = '';
 
 picks.forEach((picksItem) => {
@@ -13,6 +12,7 @@ picks.forEach((picksItem) => {
     if (feature.tag === featureTag) {
       matchingFeature = feature;
     }
+    console.log(matchingFeature);
   });
   
   featuredSummaryHTML +=
