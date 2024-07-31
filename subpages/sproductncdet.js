@@ -16,7 +16,6 @@ product.forEach((productItem) => {
   });
 
   productsummaryHTML +=
-
   `
   <div class="container js-account-container-${matchingAccount.id}">
     <div class="slider-feat">
