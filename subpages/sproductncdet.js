@@ -3,17 +3,17 @@ import {product, closeAccountDetails} from '../data/products.js';
 
 let productsummaryHTML = '';
 
-product.forEach((productItem) => {
-  const accountId = productItem.accountId;
+  product.forEach((productItem) => {
+    const accountId = productItem.accountId;
 
-  let matchingAccount;
+    let matchingAccount;
 
-  accounts.forEach((account) => {
-    if (account.id === accountId) {
-      matchingAccount = account;
-    }
-    console.log(matchingAccount);
-  });
+    accounts.forEach((account) => {
+      if (account.id === accountId) {
+        matchingAccount = account;
+      }
+      console.log(matchingAccount);
+    });
 
   productsummaryHTML +=
   `

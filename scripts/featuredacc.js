@@ -3,17 +3,17 @@ import {picks, closeFeaturedDetails } from '../data/picks.js';
 
 let featuredSummaryHTML = '';
 
-picks.forEach((picksItem) => {
-  const featureTag = picksItem.featureTag;
+  picks.forEach((picksItem) => {
+    const featureTag = picksItem.featureTag;
 
-  let matchingFeature;
+    let matchingFeature;
 
-  featured.forEach((feature) => {
-    if (feature.tag === featureTag) {
-      matchingFeature = feature;
-    }
-    console.log(matchingFeature);
-  });
+    featured.forEach((feature) => {
+      if (feature.tag === featureTag) {
+        matchingFeature = feature;
+      }
+      console.log(matchingFeature);
+    });
   
   featuredSummaryHTML +=
 `
